@@ -1,0 +1,14 @@
+{
+  "name": "user-bags-autoscroll",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.pug",
+    "build": "parcel build index.pug"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "pug": "^2.0.4",
+    "sass": "^1.26.3"
+  }
+}

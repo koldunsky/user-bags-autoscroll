@@ -1,0 +1,61 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 3500px;
+  width: 100%;
+  outline: 1px solid black;
+  background-image: linear-gradient(to bottom, darkcyan, orange);
+}
+
+.userbag {
+  position: absolute;
+  top: 1200px;
+  background: white;
+  width: 100%;
+  overflow: scroll;
+}
+
+.userbagInner {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px 0;
+  background: white;
+}
+
+.user {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  &:first-child {
+    padding-left: 35px;
+  }
+
+  &:last-child {
+    padding-left: 35px;
+  }
+}
+
+.userPic {
+  width: 100px;
+  height: 100px;
+  background: lightgrey;
+  border-radius: 20px;
+}
+
+.userName {
+  margin-top: 10px;
+  background: lightgrey;
+  height: 20px;
+  width: 75px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
